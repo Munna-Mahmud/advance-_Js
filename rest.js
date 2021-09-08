@@ -13,3 +13,23 @@ console.log(sum) // it will be return 90 70 like jog kore dibe
 
 sum("Sam Number", 30, 40, 20)
 sum('Munna Number', 30, 40) // it just return a string that is why we use  es6 rest operator 
+
+
+
+// for gun er khtrre
+function multi(roll, ...Number){
+    // console.log(Number)
+    console.log(`${roll}: `)
+    let multi=1
+    for( let i in Number){
+         multi *= Number[i]
+    }
+    console.log(multi)
+}
+multi("Math Number", 5, 5, 2)
+
+
+
+
+
+
