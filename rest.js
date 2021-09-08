@@ -15,7 +15,6 @@ sum("Sam Number", 30, 40, 20)
 sum('Munna Number', 30, 40) // it just return a string that is why we use  es6 rest operator 
 
 
-
 // for gun er khtrre
 function multi(roll, ...Number){
     // console.log(Number)
@@ -27,9 +26,4 @@ function multi(roll, ...Number){
     console.log(multi)
 }
 multi("Math Number", 5, 5, 2)
-
-
-
-
-
 
